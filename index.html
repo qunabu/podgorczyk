@@ -1,0 +1,162 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Michał Podgórczyk</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+        * {
+            font-family: 'Roboto', sans-serif;
+        }
+
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+            color: #111;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background: #eee;
+            display: flex;
+            align-items: center;
+            /* padding: 13px; */
+        }
+
+        main,
+        nav,
+        ul {
+            width: 100%;
+        }
+
+        ul {
+            display: flex;
+            /* flex-direction: column; */
+            flex-wrap: nowrap;
+            justify-content: space-around;
+            align-items: center;
+            align-content: center;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            padding: 0vh 10vw;
+            box-sizing: border-box;
+            list-style: none;
+        }
+
+        @media (orientation: portrait) {
+            ul {
+                flex-direction: column;
+            }
+        }
+
+        ul li {
+            width: 100%;
+            max-width: 25vw;
+            margin: 5vw;
+            text-align: center;
+        }
+
+        ul li a {
+            color: #111;
+            text-decoration: none;
+            transition: opacity 0.5s ease-in-out;
+        }
+
+        ul li a:hover {
+            opacity: 0.6;
+            text-decoration: underline;
+        }
+
+        ul li>a {
+            display: block;
+        }
+
+        ul li>a img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        ul li>p {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+        }
+
+        ul li>p>a {
+            display: inline-flex;
+            margin-right: 10px;
+        }
+
+        ul li>p>a>img {
+            width: auto;
+            height: 34px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <main>
+        <nav>
+            <ul>
+                <li>
+                    <a href="http://onet.pl" target="_blank">
+                        <img src="assets/poi-min.jpg" alt="POI.eco Zdroje Uliczne" />
+                        <p><strong>POI.eco</strong><br /> Zdroje Uliczne</p>
+                    </a>
+                    <p>
+                        <a href="https://facebook.com" target="_blank">
+                            <img src="assets/facebook.svg" alt="POI.eco Zdroje Facebook" />
+                        </a>
+                        <a href="https://instagram.com" target="_blank">
+                            <img src="assets/instagram.svg" alt="POI.eco Zdroje Instagram" />
+                        </a>
+                    </p>
+                </li>
+                <li>
+                    <a href="http://onet.pl" target="_blank">
+                        <img src="assets/pracownia-min.jpg" alt="Pobereżny Podgórczyk" />
+                        <p>
+                            <strong>Pobereżny | Podgórczyk</strong><br /> Pracownia projektowa</p>
+                    </a>
+                    <p>
+                        <a href="https://facebook.com" target="_blank">
+                            <img src="assets/facebook.svg" alt="Pobereżny Podgórczyk Facebook" />
+                        </a>
+                        <a href="https://instagram.com" target="_blank">
+                            <img src="assets/instagram.svg" alt="Pobereżny Podgórczyk Instagram" />
+                        </a>
+                    </p>
+                </li>
+                <li>
+                    <a href="http://onet.pl" target="_blank">
+                        <img src="assets/michal-min.jpg" alt="POI.eco Zdroje Uliczne" />
+                        <p><strong>Michał Podgórczyk</strong><br /> bio</p>
+                    </a>
+                    <p>
+                        <a href="https://facebook.com" target="_blank">
+                            <img src="assets/facebook.svg" alt="POI.eco Zdroje Facebook" />
+                        </a>
+                        <a href="https://instagram.com" target="_blank">
+                            <img src="assets/instagram.svg" alt="POI.eco Zdroje Instagram" />
+                        </a>
+                    </p>
+                </li>
+            </ul>
+        </nav>
+    </main>
+
+</body>
+
+</html>
